@@ -1,1 +1,25 @@
 .idea/
+
+#./configure generated files
+
+*.Plo
+*.Po
+Makefile
+config.*
+libtool
+pHash.pc
+stamp-h1
+stamp-h2
+
+#make generated files
+
+*.lo
+*.o
+*.la
+*.lai
+*.so
+*.0
+*.a
+
+# java class files
+*.class
